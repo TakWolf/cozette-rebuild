@@ -186,6 +186,7 @@ def main() -> None:
     CMAP_DIR.joinpath('1E0A7 cross7.png').unlink()
     # Upstream sets DEFAULT_CHAR=0; reuse the U+0000 missing-glyph box as a separate .notdef asset.
     CMAP_DIR.joinpath('0000-007F Basic Latin', '0000.png').copy(paths.GLYPHS_DIR.joinpath('notdef.png'))
+    glyph_rules.advances['notdef'] = glyph_rules.advances['0000']
 
     glyph_rules.save()
 
