@@ -107,19 +107,19 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "loguru", specifier = "==0.8.0" },
-    { name = "pixel-font-builder", specifier = "==0.0.64" },
+    { name = "pixel-font-builder", specifier = "==0.0.66" },
     { name = "pixel-font-knife", specifier = "==0.0.35" },
-    { name = "pyyaml", specifier = "==6.0.3" },
-    { name = "sfdfont", specifier = "==0.0.1" },
+    { name = "pyyaml", specifier = "==6.0.4" },
+    { name = "sfdfont", specifier = "==0.0.2" },
 ]
 
 [[package]]
 name = "dfont"
-version = "0.0.1"
+version = "0.0.3"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/b5/94/728fd2934449be7ce72fb1c4910a65cebe7bf3dd608d50bc7ce441951e83/dfont-0.0.1.tar.gz", hash = "sha256:1a87812778b73fc71b9edcb52cd5625418d60750ebc9800158b5e273b4fc71ed", size = 17648, upload-time = "2026-11-18T13:36:03.709Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/07/ce/216e903c6a4c813647628298f65404a9290498839a0be740b5d1ac2813a5/dfont-0.0.3.tar.gz", hash = "sha256:95ced57f8f518c44bb5073efd08c3f145dfea988aa20de1d73799fd839dba42c", size = 17706, upload-time = "2026-11-24T07:50:30.714Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/68/a8/21a5b88f0c9a8372f73663631e3390fa23fd145c99d195845da1c692b013/dfont-0.0.1-py3-none-any.whl", hash = "sha256:4549010914a6c84b8ba53a23a0913c5470b4d4d4ff45f91d2187d053fdff4ba4", size = 24459, upload-time = "2026-11-18T13:36:02.655Z" },
+    { url = "https://files.pythonhosted.org/packages/3e/16/b04164ee963839ea1d27c2c9a30dfcdf428ca792beeeb7780014486cbf59/dfont-0.0.3-py3-none-any.whl", hash = "sha256:5beedd25d11aad9a2549e1bed99fdfe1c5bd076c36b9f8ca9fae1c3815e72348", size = 24806, upload-time = "2026-11-24T07:50:29.642Z" },
 ]
 
 [[package]]
@@ -180,7 +180,7 @@ wheels = [
 
 [[package]]
 name = "pixel-font-builder"
-version = "0.0.64"
+version = "0.0.66"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "bdffont" },
@@ -189,9 +189,9 @@ dependencies = [
     { name = "pcffont" },
     { name = "png" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0f/61/5035eb7cc004487821db884bc24f124eff340f1f80d38784b1208cab2e4b/pixel_font_builder-0.0.64.tar.gz", hash = "sha256:b6862d75aeb436f438bca15c0463fedca02d35410444f851d6ece7dbb909637e", size = 33350, upload-time = "2026-11-18T16:46:50.093Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/64/e8/b352fa7b0b6ef5205f44e61d47f98a5fe6bafe4d67f80f5813a56be62303/pixel_font_builder-0.0.66.tar.gz", hash = "sha256:eee74d7d7d1ed1b7c555ceddfdb867ea6b5e9cde7f94a99eb12cde28a4a32cfa", size = 33632, upload-time = "2026-11-24T08:03:46.858Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d6/23/ec9d45fa5425ee331d43f240129915e71b88831e02f9633a64b5ab86beee/pixel_font_builder-0.0.64-py3-none-any.whl", hash = "sha256:98f6772941bdb77c6fdb9f8fd716ad8e81bd7ea3aa9d979040b35e97ac8f8088", size = 49470, upload-time = "2026-11-18T16:46:48.795Z" },
+    { url = "https://files.pythonhosted.org/packages/d3/ec/210814cc627aabc164ffa3058e09f315dae6c8f3a712ce45cd9fd954d0be/pixel_font_builder-0.0.66-py3-none-any.whl", hash = "sha256:1b69ac562e4822151dbdde29abf20daff5ca2bfef2d15cece3d984af192a5546", size = 50034, upload-time = "2026-11-24T08:03:45.726Z" },
 ]
 
 [[package]]
@@ -211,11 +211,11 @@ wheels = [
 
 [[package]]
 name = "png"
-version = "0.0.2"
+version = "0.0.3"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/ab/f1/7846ecf1ac8dac3e8b88e273703b8d3cea1157e50f8eded5f9d6ac3296d4/png-0.0.2.tar.gz", hash = "sha256:e99b8a06d5996e803268cf816b96916936802abe26b31f3d5ad25331ab795c76", size = 98634, upload-time = "2026-11-17T05:44:03.996Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/ff/ce/ca247cd97987b5fabcf66bf767e39f657827e829c59f728f46fede4fd8de/png-0.0.3.tar.gz", hash = "sha256:cce0c3dcbb51e5c0311b407cb26ef634a751940bb5c3befaeddcef2b2d646404", size = 107812, upload-time = "2026-11-23T07:00:48.599Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/95/9d/b5f28dda480bd18a7a57ea94345c9f49f3d3cfb9adb7daf786bfa0ebc500/png-0.0.2-py3-none-any.whl", hash = "sha256:c92709abc779178917089603439279b6125b485521f82a2ec7f6125212f8b2df", size = 108717, upload-time = "2026-11-17T05:44:02.55Z" },
+    { url = "https://files.pythonhosted.org/packages/75/0e/fb055e4464c8917032fb623f095ad82edcfa94e06208e0e86763ca21524b/png-0.0.3-py3-none-any.whl", hash = "sha256:b3c35a49413d565ddcce955cae315ac00fdf0cf0dd1731bfc3bbf9ccdaf8bbcb", size = 111933, upload-time = "2026-11-23T07:00:47.421Z" },
 ]
 
 [[package]]
@@ -229,17 +229,37 @@ wheels = [
 
 [[package]]
 name = "pyyaml"
-version = "6.0.3"
+version = "6.0.4"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/05/8e/961c0007c59b8dd7729d542c61a4d537767a59645b82a0b521206e1e25c2/pyyaml-6.0.3.tar.gz", hash = "sha256:d76623373421df22fb4cf8817020cbb7ef15c725b9d5e45f17e189bfc384190f", size = 130960, upload-time = "2025-09-25T21:33:16.546Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/76/b8/c0b780928e2fb1c87e9e375818c6f121da2398b071012d1747be300b83f4/pyyaml-6.0.4.tar.gz", hash = "sha256:e24bf71af8a432d7808fabff134d38dfe16d3cbb41f2873bb4b1e42422de0a1a", size = 136336, upload-time = "2026-11-20T23:37:05.977Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/e5/29/fb680bd299c2c6e004c1cc1914f8bad276c6014fe8debd5d6d61ea4c4ff4/pyyaml-6.0.4-cp315-cp315-macosx_10_15_x86_64.whl", hash = "sha256:12a155bc41509d71a2eb73e2191d9e400c1345ea99ac3d9946c31f40a4c840f8", size = 189560, upload-time = "2026-11-20T23:36:46.145Z" },
+    { url = "https://files.pythonhosted.org/packages/af/6c/2ffdab56d7afeb039d957479a305516ddbaa08d0162d1e9165fb928e3aeb/pyyaml-6.0.4-cp315-cp315-macosx_11_0_arm64.whl", hash = "sha256:070c22b6f490d6cc30912be9fb9ab1af9c752769b39b53616f6510c3f038ee6a", size = 181949, upload-time = "2026-11-20T23:36:47.065Z" },
+    { url = "https://files.pythonhosted.org/packages/b3/07/3a20ed31a60084206ac20449583b0d1a42116b3c530d6857918e4ddbe4b6/pyyaml-6.0.4-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:872d2a592289061c1b987e335b3568a2616b474be02bd0608d8f551a385441cd", size = 803806, upload-time = "2026-11-20T23:36:48.145Z" },
+    { url = "https://files.pythonhosted.org/packages/26/5b/3dd56027457b96e7e5ea2f4f5976e530d699884b4fd4e360e99e57fa6cca/pyyaml-6.0.4-cp315-cp315-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:914b19e17814315fbcca52031bf79b68237f3d87a948c584a667b18b468e4df7", size = 876808, upload-time = "2026-11-20T23:36:49.294Z" },
+    { url = "https://files.pythonhosted.org/packages/b0/51/096a5495b33ff2da32f0c84f5bf8e042cf76f72641cba06ee9618ad01f4d/pyyaml-6.0.4-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:c57e40928738c4a202852759f9e1ee2c7063429a9469ee1ac15651bbf7d69963", size = 833052, upload-time = "2026-11-20T23:36:50.505Z" },
+    { url = "https://files.pythonhosted.org/packages/da/75/b4e86b5a27fcb9a9cf88e3b81d1b0c12cae2734311e508af18b93ff56286/pyyaml-6.0.4-cp315-cp315-musllinux_1_2_aarch64.whl", hash = "sha256:8e0cd755ce5e9009fd95f9c553e5942478feb8f7dffa19435641fcdc3c20e8ca", size = 788983, upload-time = "2026-11-20T23:36:51.821Z" },
+    { url = "https://files.pythonhosted.org/packages/2c/00/2a2cdad68237bcd416bd01688ecfb0e3fa1e68a841b74193db97ffd1c716/pyyaml-6.0.4-cp315-cp315-musllinux_1_2_x86_64.whl", hash = "sha256:2c11be5ab4d9f603a598b5ce93a2064ae38087bdf1b384c5397170054cda4e36", size = 828806, upload-time = "2026-11-20T23:36:52.959Z" },
+    { url = "https://files.pythonhosted.org/packages/a8/15/39efefc88dd6fbc3be23cef08a819f5e8bf9a6c0bcf003fc09d38dd0010e/pyyaml-6.0.4-cp315-cp315-win_amd64.whl", hash = "sha256:67da066ca12eb60114ea87f2ecbcca622fff0c205c743cc900437127564fabf6", size = 157467, upload-time = "2026-11-20T23:37:04.171Z" },
+    { url = "https://files.pythonhosted.org/packages/40/1d/fddc53420d9c12e7d27c36a59fabf186ba1f6117314da4927dc40b2da19b/pyyaml-6.0.4-cp315-cp315-win_arm64.whl", hash = "sha256:573debb9fe3075423d4f823795a678580e597218c25baef178d532b124a25a25", size = 151203, upload-time = "2026-11-20T23:37:05.079Z" },
+    { url = "https://files.pythonhosted.org/packages/fa/ea/48e62a25084fc4b317f8bcc5c9823ddaaa73a0c7769ca451dda6919ff491/pyyaml-6.0.4-cp315-cp315t-macosx_10_15_x86_64.whl", hash = "sha256:c680622f85979f2ff59b4ae44c1ecb5566b2f0f0ffe5d0dc8b4bb6a0e916dabb", size = 193500, upload-time = "2026-11-20T23:36:54.416Z" },
+    { url = "https://files.pythonhosted.org/packages/49/dd/8c4df6becc936125261607073fbcd55e1d902a8d53ae4e4893d53b9df0ef/pyyaml-6.0.4-cp315-cp315t-macosx_11_0_arm64.whl", hash = "sha256:18ea9bda247857fc0de05181675dc116b54c1b04ca3db71de5d2108c882823b7", size = 188474, upload-time = "2026-11-20T23:36:55.651Z" },
+    { url = "https://files.pythonhosted.org/packages/d0/63/b60236ef09cbab7c5ce174aff59d49a3425b9a8e9bbe4690bd3b9b7d4fba/pyyaml-6.0.4-cp315-cp315t-manylinux2014_aarch64.manylinux_2_17_aarch64.manylinux_2_28_aarch64.whl", hash = "sha256:6ac167ebebc0c387290406a337b9b5c8c343fa5f7928d5941e45a94b8ba3aa39", size = 848311, upload-time = "2026-11-20T23:36:56.961Z" },
+    { url = "https://files.pythonhosted.org/packages/f6/3b/4b14f064ae5d6f69638a86bb7bf1a46d02bb4de083798e693a4a83b1418a/pyyaml-6.0.4-cp315-cp315t-manylinux2014_s390x.manylinux_2_17_s390x.manylinux_2_28_s390x.whl", hash = "sha256:4a2a8f27d24d4cdc05aa11df5f4c08e13f30d9e6674809b6a5ddcfcba49a653a", size = 891181, upload-time = "2026-11-20T23:36:58.077Z" },
+    { url = "https://files.pythonhosted.org/packages/01/36/4e0b01e380bf3695d34a4bf6b9272c529f4c8d3195c733687d64fb9f8f06/pyyaml-6.0.4-cp315-cp315t-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl", hash = "sha256:e956541cc7a3fff2bb5b17aeb6c5bb42c86c8e6dafb5ebdd41a05e72e702076b", size = 855715, upload-time = "2026-11-20T23:36:59.165Z" },
+    { url = "https://files.pythonhosted.org/packages/6d/a8/2784a29e687fa7a5882d47c925a98d1dbdd60ead521be14a9342c6a74ff9/pyyaml-6.0.4-cp315-cp315t-musllinux_1_2_aarch64.whl", hash = "sha256:8708f6ab9c2581ffa05f66dae3206bb0385949650537d7295fc7ab0d6454dd70", size = 818754, upload-time = "2026-11-20T23:37:00.248Z" },
+    { url = "https://files.pythonhosted.org/packages/bb/85/62d54e223b4bc89ff85f087a5ce2648e5d929d3214d64613dbae17d5e045/pyyaml-6.0.4-cp315-cp315t-musllinux_1_2_x86_64.whl", hash = "sha256:a65339c24f2fb8d4419e06ceec1bda98bdcff727b3b533a81d5af6bb2dd34520", size = 845763, upload-time = "2026-11-20T23:37:01.331Z" },
+    { url = "https://files.pythonhosted.org/packages/eb/40/6bd9090368664be984a83fd7fe64f8e044b067a52449679c309706e3199d/pyyaml-6.0.4-cp315-cp315t-win_amd64.whl", hash = "sha256:a3cc63af3d639d1609143711837b926183418260aae89ed95193c07b25b99d33", size = 163170, upload-time = "2026-11-20T23:37:02.3Z" },
+    { url = "https://files.pythonhosted.org/packages/0d/22/468d36762a0c650cf2295052998eb1d419053335ea9ff48a043f5ae4d578/pyyaml-6.0.4-cp315-cp315t-win_arm64.whl", hash = "sha256:d276f23e2371deb5ee68dd252cc9c2402b806b54d8d2cc7efbb6c34c3a78d886", size = 156942, upload-time = "2026-11-20T23:37:03.209Z" },
+]
 
 [[package]]
 name = "sfdfont"
-version = "0.0.1"
+version = "0.0.2"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/0e/75/b106b2b2f7ae2aa143114a5fddcbaa5e3fb1a4b2aa4f04d559b665bcc0fc/sfdfont-0.0.1.tar.gz", hash = "sha256:e9e3949137fbfc9cc0f0ac9a80dbc7ed55f8f03d205a1ea1135b370d165c303f", size = 108744, upload-time = "2026-11-20T13:41:06.352Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d5/99/e38348ae8706478d5e7466f444e84378d12cac7159159405f7883e8af3a4/sfdfont-0.0.2.tar.gz", hash = "sha256:1ae04860b949ffa01806fe110dd1477827f837f706b0b8f54bf94eaa05ca2284", size = 111045, upload-time = "2026-11-23T07:15:21.131Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/8b/bb/b954d966a9c3ae61d29d2b31ac3dafb89c20e616eeda80bc43a21d63ee36/sfdfont-0.0.1-py3-none-any.whl", hash = "sha256:0a4cda55fa2df842e0f39e3ef16908a24a3e62977d695f29bb3fd33c6b1ccb1c", size = 132658, upload-time = "2026-11-20T13:41:05.159Z" },
+    { url = "https://files.pythonhosted.org/packages/d8/53/85aea63ab6cc800cb18072aa9cd10913f2f89815f1cee944a8a50a5380bd/sfdfont-0.0.2-py3-none-any.whl", hash = "sha256:babe768406c0fec8703fc42f32ef9712afaf4a86eda2a725b5d6a6d108fbb0c6", size = 135469, upload-time = "2026-11-23T07:15:19.85Z" },
 ]
 
 [[package]]
